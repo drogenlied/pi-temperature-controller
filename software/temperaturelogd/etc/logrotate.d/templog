@@ -1,0 +1,11 @@
+/home/pi/temp.log
+{
+        rotate 100
+        compress
+        daily
+        dateext
+        missingok
+        postrotate
+        /bin/systemctl restart templog
+        endscript
+}
